@@ -1,7 +1,6 @@
-import { Suspense, lazy } from "react";
+import React, { Suspense, lazy } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import styles from "../styles/modules/app.module.scss";
-// import TodoItem from "./TodoItem";
 import Loading from "./Loading";
 import useFilteredList from "../hooks/useFilteredList";
 import { delayForDemo } from "../utils/delayForDemo";
